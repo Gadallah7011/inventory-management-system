@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+  padding: 1rem 0;
+  gap: 2rem;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-link {
+  color: #bbbbbb;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.3rem 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.nav-link:hover {
+  color: #61dafb;
+  border-bottom: 2px solid #61dafb;
+}
+
+.nav-link.active {
+  color: #61dafb;
+  border-bottom: 2px solid #61dafb;
+}
+
+.home-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.home-header {
+  margin-bottom: 3rem;
+}
+
+.home-logo {
+  width: 100px;
+  animation: spin 20s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  margin-top: 0.3rem;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.feature-card-simple {
+  background: #1e1e2e;
+  padding: 1.2rem 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+  transition: box-shadow 0.3s ease;
+}
+
+.feature-card-simple:hover {
+  box-shadow: 0 8px 24px rgba(97, 218, 251, 0.7);
+}
+
+.feature-link-simple {
+  color: #61dafb;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.feature-link-simple:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

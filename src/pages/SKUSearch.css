@@ -1,0 +1,75 @@
+/* SKUSearch.css - Dark Mode */
+
+.search-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #1e1e2f;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+}
+
+.search-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.search-container form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #2e2e3f;
+  color: #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+.search-container input:focus {
+  outline: none;
+  border-color: #61dafb;
+  background-color: #3a3a54;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 700;
+  color: #1e1e2f;
+  transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #21a1f1;
+  color: #fff;
+}
+
+.search-container .results ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.search-container .results li {
+  padding: 12px;
+  border-bottom: 1px solid #444;
+  color: #cfd8dc;
+  font-weight: 500;
+}
+
+.search-container .results li:last-child {
+  border-bottom: none;
+}

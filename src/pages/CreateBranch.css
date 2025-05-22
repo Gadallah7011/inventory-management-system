@@ -1,0 +1,113 @@
+/* CreateBranch.css - Dark Mode */
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f;  /* خلفية داكنة */
+  color: #e0e0e0;  /* لون الخط فاتح */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #61dafb;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #a0a0b0;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #2e2e3f;
+  color: #e0e0e0;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #61dafb;
+  background-color: #3a3a54;
+}
+
+.button-submit {
+  width: 100%;
+  background-color: #61dafb;
+  color: #1e1e2f;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-submit:hover {
+  background-color: #21a1f1;
+  color: white;
+}
+
+.success-message {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #2d6a4f;
+  color: #d4edda;
+  border-radius: 6px;
+  border: 1px solid #1b4332;
+  font-weight: 600;
+  text-align: center;
+}
+
+.branches-list h3 {
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  color: #61dafb;
+}
+
+.branches-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.branches-list li {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ccc;
+}
+
+.branch-info {
+  color: #aaa;
+}
+
+.branch-id {
+  background-color: #61dafb;
+  color: #1e1e2f;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
